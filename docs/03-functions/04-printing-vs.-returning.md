@@ -1,4 +1,4 @@
-Printing vs. Returning
+# Printing vs. Returning
 
 Some new developers get hung up on the difference between `print()` and `return`. When exercises or test harnesses print your function output to the console, it can make `print()` and `return` look interchangeable — but they are not.
 
