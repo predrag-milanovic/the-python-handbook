@@ -1,4 +1,4 @@
-Where to Declare Functions
+# Where to Declare Functions
 
 You've probably noticed that a variable must be created before it's used. For example, this raises an error:
 
