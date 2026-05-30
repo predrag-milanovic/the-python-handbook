@@ -1,4 +1,4 @@
-Order of Functions
+# Order of Functions
 
 All functions must be defined before they're used at runtime.
 
