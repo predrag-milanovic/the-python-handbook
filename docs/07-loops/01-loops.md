@@ -2,6 +2,11 @@
 
 Loops let us run the same piece of code multiple times without writing it again and again. They're essential when you need to repeat an operation, whether that's 10 times, 1,000 times, or 1,000,000 times.
 
+Python has two main loop types:
+
+- `for` loops, which iterate over a sequence (like `range()`, a list, or a string)
+- `while` loops, which continue as long as a condition stays `True`
+
 As a reminder, a `for` loop in Python is written like this:
 
 ```python
@@ -18,6 +23,39 @@ In English, the code says:
 5. Go back to step 2.
 
 The result is that the numbers `0` through `9` are logged to the console in order.
+
+## While
+
+Python has another type of loop, the `while` loop. It's a loop that continues `while` a condition remains `True`.
+
+The syntax is simple:
+
+```python
+while 1:
+    print("1 evaluates to True")
+
+# prints:
+# 1 evaluates to True
+# 1 evaluates to True
+# (...continuing)
+```
+
+The example above is hardcoded to continue forever, creating an infinite loop.
+
+Typically, a `while` loop condition is a comparison or variable, and it determines when the loop ends:
+
+```python
+num = 0
+while num < 3:
+    num += 1
+    print(num)
+
+# prints:
+# 1
+# 2
+# 3
+# (the loop stops when num >= 3)
+```
 
 ## How `range()` works
 
@@ -46,13 +84,3 @@ print(i)  # SyntaxError: expected an indented block
 
 Always use a consistent indentation style. Four spaces is the common convention.
 
-## Assignment
-
-In the `print_numbers` function, write a `for` loop from scratch that logs the numbers `0` through `199` to the console.
-
-```python
-def print_numbers():
-    pass
-```
-
-Don't edit the code below this line.
